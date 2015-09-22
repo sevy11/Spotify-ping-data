@@ -31,6 +31,16 @@
 @property NSString *searchTerm13;
 @property NSString *searchTerm14;
 @property NSString *searchTerm15;
+@property NSString *searchTerm16;
+@property NSString *searchTerm17;
+@property NSString *searchTerm18;
+@property NSString *searchTerm19;
+@property NSString *searchTerm20;
+@property NSString *searchTerm21;
+@property NSString *searchTerm22;
+@property NSString *searchTerm23;
+@property NSString *searchTerm24;
+@property NSString *searchTerm25;
 
 
 

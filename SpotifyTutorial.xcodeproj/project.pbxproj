@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262251F31BA8A5BC0037EBAB /* SocialMedia.m in Sources */ = {isa = PBXBuildFile; fileRef = 262251F21BA8A5BC0037EBAB /* SocialMedia.m */; };
+		2658F4D51BAF850E00ED018E /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2658F4D41BAF850E00ED018E /* libsqlite3.0.tbd */; };
 		267FE25F1B98A37B00DAF5CC /* Spotify.m in Sources */ = {isa = PBXBuildFile; fileRef = 267FE25E1B98A37B00DAF5CC /* Spotify.m */; };
 		267FE2611B98CD1B00DAF5CC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267FE2601B98CD1B00DAF5CC /* AudioToolbox.framework */; };
 		267FE2631B98CD2400DAF5CC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267FE2621B98CD2400DAF5CC /* CFNetwork.framework */; };
 		267FE2661B98CD8F00DAF5CC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267FE2641B98CD8F00DAF5CC /* Bolts.framework */; };
 		267FE2671B98CD8F00DAF5CC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267FE2651B98CD8F00DAF5CC /* Parse.framework */; };
 		267FE26D1B98CDFD00DAF5CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267FE2681B98CDFD00DAF5CC /* CoreGraphics.framework */; };
-		267FE26E1B98CDFD00DAF5CC /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 267FE2691B98CDFD00DAF5CC /* libsqlite3.0.dylib */; };
-		267FE26F1B98CDFD00DAF5CC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 267FE26A1B98CDFD00DAF5CC /* libz.dylib */; };
 		267FE2701B98CDFD00DAF5CC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267FE26B1B98CDFD00DAF5CC /* QuartzCore.framework */; };
 		267FE2711B98CDFD00DAF5CC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267FE26C1B98CDFD00DAF5CC /* Security.framework */; };
 		267FE2731B98CE0500DAF5CC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267FE2721B98CE0500DAF5CC /* StoreKit.framework */; };
@@ -43,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		262251F11BA8A5BC0037EBAB /* SocialMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialMedia.h; sourceTree = "<group>"; };
+		262251F21BA8A5BC0037EBAB /* SocialMedia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialMedia.m; sourceTree = "<group>"; };
+		2658F4D41BAF850E00ED018E /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		267FE25D1B98A37B00DAF5CC /* Spotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spotify.h; sourceTree = "<group>"; };
 		267FE25E1B98A37B00DAF5CC /* Spotify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spotify.m; sourceTree = "<group>"; };
 		267FE2601B98CD1B00DAF5CC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -50,8 +53,6 @@
 		267FE2641B98CD8F00DAF5CC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		267FE2651B98CD8F00DAF5CC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		267FE2681B98CDFD00DAF5CC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		267FE2691B98CDFD00DAF5CC /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
-		267FE26A1B98CDFD00DAF5CC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		267FE26B1B98CDFD00DAF5CC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		267FE26C1B98CDFD00DAF5CC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		267FE2721B98CE0500DAF5CC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
@@ -82,10 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2658F4D51BAF850E00ED018E /* libsqlite3.0.tbd in Frameworks */,
 				267FE2731B98CE0500DAF5CC /* StoreKit.framework in Frameworks */,
 				267FE26D1B98CDFD00DAF5CC /* CoreGraphics.framework in Frameworks */,
-				267FE26E1B98CDFD00DAF5CC /* libsqlite3.0.dylib in Frameworks */,
-				267FE26F1B98CDFD00DAF5CC /* libz.dylib in Frameworks */,
 				267FE2701B98CDFD00DAF5CC /* QuartzCore.framework in Frameworks */,
 				267FE2711B98CDFD00DAF5CC /* Security.framework in Frameworks */,
 				267FE2631B98CD2400DAF5CC /* CFNetwork.framework in Frameworks */,
@@ -111,10 +111,9 @@
 		26F118761B828AE400932D97 = {
 			isa = PBXGroup;
 			children = (
+				2658F4D41BAF850E00ED018E /* libsqlite3.0.tbd */,
 				267FE2721B98CE0500DAF5CC /* StoreKit.framework */,
 				267FE2681B98CDFD00DAF5CC /* CoreGraphics.framework */,
-				267FE2691B98CDFD00DAF5CC /* libsqlite3.0.dylib */,
-				267FE26A1B98CDFD00DAF5CC /* libz.dylib */,
 				267FE26B1B98CDFD00DAF5CC /* QuartzCore.framework */,
 				267FE26C1B98CDFD00DAF5CC /* Security.framework */,
 				267FE2621B98CD2400DAF5CC /* CFNetwork.framework */,
@@ -188,6 +187,8 @@
 		26F183961BA111F3004E6DF2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				262251F11BA8A5BC0037EBAB /* SocialMedia.h */,
+				262251F21BA8A5BC0037EBAB /* SocialMedia.m */,
 				267FE25D1B98A37B00DAF5CC /* Spotify.h */,
 				267FE25E1B98A37B00DAF5CC /* Spotify.m */,
 			);
@@ -299,6 +300,7 @@
 				26F118881B828AE400932D97 /* AppDelegate.m in Sources */,
 				267FE25F1B98A37B00DAF5CC /* Spotify.m in Sources */,
 				26F183951BA111D6004E6DF2 /* JoinViewController.m in Sources */,
+				262251F31BA8A5BC0037EBAB /* SocialMedia.m in Sources */,
 				26F118851B828AE400932D97 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
